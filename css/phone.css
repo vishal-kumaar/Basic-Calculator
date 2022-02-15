@@ -1,0 +1,78 @@
+body {
+    background: pink;
+}
+
+h1 {
+    text-align: center;
+    background: purple;
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+    border-radius: 20px;
+    width: 200px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.calculator {
+    padding: 15px 10px;
+    border-radius: 20px;
+    background: #ff99f7;
+}
+
+input {
+    font-size: 30px;
+    border: 5px solid green;
+    border-radius: 21px;
+}
+
+table {
+    margin: 10px auto;
+}
+
+button {
+    font-size: 30px;
+    background: #978fa0;
+    width: 70px;
+    height: 40px;
+    border-radius: 20px
+}
+
+.instruction {
+    margin: 14px 0;
+    width: 90%;
+}
+
+h3 {
+    font-size: 20px;
+    color: red;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+ol {
+    list-style: circle;
+    font-size: 15px;
+    padding: 0 12px;
+}
+
+li {
+    margin: 6px 0;
+}
+
+.credits {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background: black;
+    width: 100%;
+}
